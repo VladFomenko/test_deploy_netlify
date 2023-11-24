@@ -1,4 +1,4 @@
-# cwGp4RcJ
+# statis JS Page
 
 Quick start:
 
