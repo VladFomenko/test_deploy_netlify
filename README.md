@@ -1,4 +1,4 @@
-# statis JS Page
+# static JS page
 
 Quick start:
 
