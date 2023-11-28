@@ -1,21 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
 let saveEl;
 let countEl;
 let count = 0
 
-
-  saveEl = document.getElementById("save-el")
-  countEl = document.getElementById("count-el")
+document.addEventListener('DOMContentLoaded', () => {
+    saveEl = document.getElementById("save-el")
+    countEl = document.getElementById("count-el")
+});
 
 function increment() {
-  count += 1
-  countEl.textContent = count
+    count += 1
+    countEl.textContent = count
 }
 
 function save() {
-  let countStr = count + " - "
-  saveEl.textContent += countStr
-  countEl.textContent = 0
-  count = 0
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
 }
-})
